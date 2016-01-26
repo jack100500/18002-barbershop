@@ -1,188 +1,183 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
-
-  <header class="main-header">
-    <div class="container">
-      <div class="main-logo">
-        <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
-      </div>
-      <nav class="main-navigation">
-        <ul>
-          <li>Информация</li>
-          <li>Новости</li>
-          <li>Прайс-лист</li>
-          <li>Магазин</li>
-          <li>Контакты</li>
-        </ul>
-      </nav>
-      <div class="user-block">
-        <a href="#">Вход</a>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <h1 class="catalog-header">Средства для ухода</h1>
-    <div class="catalog-breadcrumbs">
-      <ul>
-        <li>Главная</li>
-        <li>Магазин</li>
-        <li>Средства для ухода</li>
-      </ul>
-    </div>
-    <div class="catalog-left">
-      <section class="catalog-filter">
-        <h2 class="catalog-brands-title">ПРОИЗВОДИТЕЛИ:</h2>
-        <form action="http://echo.htmlacademy.ru" method="post">
-          <label>
-            <input type="checkbox" name="" value="">
-            BAXTER OF CALIFORNIA
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="" value="">
-            MR NATTY
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="" value="">
-            SUAVECITO
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="" value="">
-            MALIN-GOETZ
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="" value="">
-            MURRAY'S
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="" value="">
-            AMERICAN CREW
-          </label>
-
-          <h2 class="catalog-brands-title">ГРУППЫ ТОВАРОВ:</h2>
-          <label>
-            <input type="radio" name="filter-type" value="1">
-            БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="filter-type" value="2">
-            СРЕДСТВА ДЛЯ УХОДА
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="filter-type" value="3">
-            АКСЕССУАРЫ
-          </label>
-          <br>
-          <input type="submit" value="Показать">
-        </form>
-      </section>
-      <div class="catalog-right">
-        <article class="catalog-item">
-          <div class="catalog-item-image">
-            <img src="http://placehold.it/150x130" width="150" alt="">
-          </div>
-          <p class="catalog-item-description">НАБОР ДЛЯ ПУТЕШЕСТВИЙ
-            «BAXTER OF CALIFORNIA»</p>
-          <p class="catalog-item-price">2900 РУБ.</p>
-          <a class="catalog-item-buy">Купить</a>
-        </article>
-
-        <article class="catalog-item">
-          <div class="catalog-item-image">
-            <img src="http://placehold.it/150x130" width="150" alt="">
-          </div>
-          <p class="catalog-item-description">УВЛАЖНЯЮЩИЙ КОНДИЦИОНЕР
-            «BAXTER OF CALIFORNIA»</p>
-          <p class="catalog-item-price">750 РУБ.</p>
-          <a class="catalog-item-buy">Купить</a>
-        </article>
-
-        <article class="catalog-item">
-          <div class="catalog-item-image">
-            <img src="http://placehold.it/150x130" width="150" alt="">
-          </div>
-          <p class="catalog-item-description">ГЕЛЬ ДЛЯ ВОЛОС
-            «SUAVECITO»</p>
-          <p class="catalog-item-price">290 РУБ.</p>
-          <a class="catalog-item-buy">Купить</a>
-        </article>
-
-        <article class="catalog-item">
-          <div class="catalog-item-image">
-            <img src="http://placehold.it/150x130" width="150" alt="">
-          </div>
-          <p class="catalog-item-description">ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС
-            «AMERICAN CREW»</p>
-          <p class="catalog-item-price">500 РУБ.</p>
-          <a class="catalog-item-buy">Купить</a>
-        </article>
-
-        <article class="catalog-item">
-          <div class="catalog-item-image">
-            <img src="http://placehold.it/150x130" width="150" alt="">
-          </div>
-          <p class="catalog-item-description">ГЕЛЬ ДЛЯ ВОЛОС
-            «AMERICAN CREW»</p>
-          <p class="catalog-item-price">300 РУБ.</p>
-          <a class="catalog-item-buy">Купить</a>
-        </article>
-
-        <article class="catalog-item">
-          <div class="catalog-item-image">
-            <img src="http://placehold.it/150x130" width="150" alt="">
-          </div>
-          <p class="catalog-item-description">НАБОР ДЛЯ БРИТЬЯ
-            «BAXTER OF CALIFORNIA»</p>
-          <p class="catalog-item-price">3900 РУБ.</p>
-          <a class="catalog-item-buy">Купить</a>
-        </article>
-
-      </div>
-
-      <div class="catalog-pagination">
-        <a class="catalog-pagination-link">1</a>
-        <a class="catalog-pagination-link-active">2</a>
-        <a class="catalog-pagination-link">3</a>
-        <a class="catalog-pagination-link">4</a>
-      </div>
-
-    </div>
-  </main>
-
-  <footer class="main-footer">
-    <div class="container">
-      <section class="footer-contacts">
-        <p>
-          БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д.19/8<br>
-          КАК НАС НАЙТИ?<br>
-          ТЕЛЕФОН: +7 (495) 666-02-66
-        </p>
-      </section>
-      <section class="footer-social">
-        <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
-        <a class="social-btn social-btn-vk" href="#">VK</a>
-        <a class="social-btn social-btn-facebook" href="#">Facebook</a>
-        <a class="social-btn social-btn-instagram" href="#">Instagram</a>
-      </section>
-      <section class="footer-copyright">
-        <p>Разработано</p>
-        <a class="btn" href="#">htmlacademy.ru</a>
-      </section>
-    </div>
-  </footer>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+</head>
+<body>
+<header class="main-header">
+  <div class="container">
+	<div class="main-logo">
+	  <a href="/"><img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»"></a>
+	</div>
+	<nav class="main-navigation">
+	  <ul>
+		<li><a href="#">Информация</a></li>
+		<li><a href="#">Новости</a></li>
+		<li><a href="#">Прайс-лист</a></li>
+		<li><a href="#">Магазин</a></li>
+		<li><a href="#">Контакты</a></li>
+	  </ul>
+	</nav>
+	<div class="user-block">
+	  <a href="#">Вход</a>
+	</div>
+  </div>
+</header>
+<main>
+  <div class="container">
+	<h1>Средства для ухода</h1>
+	<div class="breadcrumbs">
+	  <a href="#">Главная</a>
+	  <a href="#">Магазин</a>
+	  <span class="active">Средства для ухода</span>
+	</div>
+	<div class="content-block">
+	  <div class="content-block-left">
+		<section class="content-brands">
+		  <h2 class="content-brands-title">ПРОИЗВОДИТЕЛИ:</h2>
+		  <form action="http://echo.htmlacademy.ru" method="post">
+			<label>
+			  <input type="checkbox" name="1" value="1">
+			  BAXTER OF CALIFORNIA
+			</label>
+			<label>
+			  <input type="checkbox" name="2" value="2">
+			  MR NATTY
+			</label>
+			<label>
+			  <input type="checkbox" name="3" value="3">
+			  SUAVECITO
+			</label>
+			<label>
+			  <input type="checkbox" name="4" value="4">
+			  MALIN-GOETZ
+			</label>
+			<label>
+			  <input type="checkbox" name="5" value="5">
+			  MURRAY'S
+			</label>
+			<label>
+			  <input type="checkbox" name="6" value="6">
+			  AMERICAN CREW
+			</label>
+			<h2 class="content-brands-title">ГРУППЫ ТОВАРОВ:</h2>
+			<label>
+			  <input type="radio" name="filter-type" value="1">
+			  БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
+			</label>
+			<label>
+			  <input type="radio" name="filter-type" value="2">
+			  СРЕДСТВА ДЛЯ УХОДА
+			</label>
+			<label>
+			  <input type="radio" name="filter-type" value="3">
+			  АКСЕССУАРЫ
+			</label>
+			<input type="submit" value="Показать">
+		  </form>
+		</section>
+	  </div>
+	  <div class="content-block-right">
+		<div class="content-catalog">
+		  <article class="content-catalog-item">
+			<a href="catalog-item.html">
+			  <img src="http://placehold.it/150x130" width="150" alt="test">
+			</a>
+			<a class="content-catalog-item-title" href="catalog-item.html">НАБОР ДЛЯ ПУТЕШЕСТВИЙ<br>
+			  «BAXTER OF CALIFORNIA»</a>
+			<div class="content-catalog-item-price">
+			  <p>2900 РУБ.</p>
+			  <a class="btn" href="#">Купить</a>
+			</div>
+		  </article>
+		  <article class="content-catalog-item">
+			<a href="catalog-item.html">
+			  <img src="http://placehold.it/150x130" width="150" alt="test">
+			</a>
+			<a class="content-catalog-item-title" href="catalog-item.html">ВЛАЖНЯЮЩИЙ КОНДИЦИОНЕР<br>
+			  «BAXTER OF CALIFORNIA»</a>
+			<div class="content-catalog-item-price">
+			  <p>750 РУБ.</p>
+			  <a class="btn" href="#">Купить</a>
+			</div>
+		  </article>
+		  <article class="content-catalog-item">
+			<a href="catalog-item.html">
+			  <img src="http://placehold.it/150x130" width="150" alt="test">
+			</a>
+			<a class="content-catalog-item-title" href="catalog-item.html">ГЕЛЬ ДЛЯ ВОЛОС<br>
+			  «SUAVECITO»</a>
+			<div class="content-catalog-item-price">
+			  <p>290 РУБ.</p>
+			  <a class="btn" href="#">Купить</a>
+			</div>
+		  </article>
+		  <article class="content-catalog-item">
+			<a href="catalog-item.html">
+			  <img src="http://placehold.it/150x130" width="150" alt="test">
+			</a>
+			<a class="content-catalog-item-title" href="catalog-item.html">ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС<br>
+			  «AMERICAN CREW»</a>
+			<div class="content-catalog-item-price">
+			  <p>500 РУБ.</p>
+			  <a class="btn" href="#">Купить</a>
+			</div>
+		  </article>
+		  <article class="content-catalog-item">
+			<a href="catalog-item.html">
+			  <img src="http://placehold.it/150x130" width="150" alt="test">
+			</a>
+			<a class="content-catalog-item-title" href="catalog-item.html">ГЕЛЬ ДЛЯ ВОЛОС<br>
+			  «AMERICAN CREW»</a>
+			<div class="content-catalog-item-price">
+			  <p>300 РУБ.</p>
+			  <a class="btn" href="#">Купить</a>
+			</div>
+		  </article>
+		  <article class="content-catalog-item">
+			<a href="catalog-item.html">
+			  <img src="http://placehold.it/150x130" width="150" alt="test">
+			</a>
+			<a class="content-catalog-item-title" href="catalog-item.html">НАБОР ДЛЯ БРИТЬЯ<br>
+			  «BAXTER OF CALIFORNIA»</a>
+			<div class="content-catalog-item-price">
+			  <p>3900 РУБ.</p>
+			  <a class="btn" href="#">Купить</a>
+			</div>
+		  </article>
+		</div>
+		<div class="pagination">
+		  <a href="#">1</a>
+		  <span class="active">2</span>
+		  <a href="#">3</a>
+		  <a href="#">4</a>
+		</div>
+	  </div>
+	</div>
+  </div>
+</main>
+<footer class="main-footer">
+  <div class="container">
+	<section class="footer-contacts">
+	  <p>
+		БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+		АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д.19/8<br>
+		КАК НАС НАЙТИ?<br>
+		ТЕЛЕФОН: +7 (495) 666-02-66
+	  </p>
+	</section>
+	<section class="footer-social">
+	  <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
+	  <a class="social-btn social-btn-vk" href="#">VK</a>
+	  <a class="social-btn social-btn-facebook" href="#">Facebook</a>
+	  <a class="social-btn social-btn-instagram" href="#">Instagram</a>
+	</section>
+	<section class="footer-copyright">
+	  <p>Разработано</p>
+	  <a class="btn" href="#">htmlacademy.ru</a>
+	</section>
+  </div>
+</footer>
+</body>
 </html>
