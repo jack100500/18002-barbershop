@@ -3,29 +3,40 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Барбершоп</title>
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<header class="main-header">
+<header class="main-header clearfix">
   <div class="container">
-	<div class="main-logo">
-	  <a href="/"><img src="img/content-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»"></a>
+	<div class="regular-logo">
+	  <a href="index.html"><img src="img/content-logo-small.png" width="127" height="32" alt="Барбершоп «Бородинский»"></a>
 	</div>
-	<nav class="main-navigation">
-	  <ul class="main-navigation-list">
-		<li><a href="#">Информация</a></li>
-		<li><a href="#">Новости</a></li>
-		<li><a href="#">Прайс-лист</a></li>
-		<li><a class="active" href="#">Магазин</a></li>
-		<li><a href="#">Контакты</a></li>
+	<nav class="regular-navigation">
+	  <ul>
+		<li>
+		  <a href="#">Информация</a>
+		</li>
+		<li>
+		  <a href="#">Новости</a>
+		</li>
+		<li>
+		  <a href="#">Прайс-лист</a>
+		</li>
+		<li>
+		  <a class="active" href="catalog.html">Магазин</a>
+		</li>
+		<li>
+		  <a href="#">Контакты</a>
+		</li>
 	  </ul>
 	</nav>
 	<div class="user-block">
-	  <a href="#">Вход</a>
+	  <a class="login" href="#">Вход</a>
 	</div>
   </div>
 </header>
-<main>
+<main class="regular-page clearfix">
   <div class="container">
 	<h1>Средства для ухода</h1>
 	<div class="breadcrumbs">
@@ -33,8 +44,8 @@
 	  <a href="#">Магазин</a>
 	  <span class="active">Средства для ухода</span>
 	</div>
-	<div class="content-block">
-	  <div class="content-block-left">
+	<div class="content-block clearfix">
+	  <div class="item-block-left">
 		<section class="content-brands">
 		  <h2 class="content-brands-title">ПРОИЗВОДИТЕЛИ:</h2>
 		  <form action="http://echo.htmlacademy.ru" method="post">
@@ -81,8 +92,8 @@
 		  </form>
 		</section>
 	  </div>
-	  <div class="content-block-right">
-		<div class="content-catalog">
+	  <div class="item-block-right">
+		<div class="content-catalog clearfix">
 		  <article class="content-catalog-item">
 			<div class="content-catalog-item-image">
 			  <a href="catalog-item.html"><img src="http://placehold.it/150x130" width="150" alt="test"></a>
@@ -92,7 +103,7 @@
 				«BAXTER OF CALIFORNIA»</a>
 			</div>
 			<div class="content-catalog-item-price">
-			  <span>2900 РУБ.</span> <a class="btn" href="#">Купить</a>
+			  <span>2900 РУБ.</span> <a class="btn" href="catalog-item.html">Купить</a>
 			</div>
 		  </article>
 		  <article class="content-catalog-item">
@@ -104,7 +115,7 @@
 				«BAXTER OF CALIFORNIA»</a>
 			</div>
 			<div class="content-catalog-item-price">
-			  <span>750 РУБ.</span> <a class="btn" href="#">Купить</a>
+			  <span>750 РУБ.</span> <a class="btn" href="catalog-item.html">Купить</a>
 			</div>
 		  </article>
 		  <article class="content-catalog-item">
@@ -115,7 +126,7 @@
 			  <a href="catalog-item.html">ГЕЛЬ ДЛЯ ВОЛОС<br>«SUAVECITO»</a>
 			</div>
 			<div class="content-catalog-item-price">
-			  <span>290 РУБ.</span> <a class="btn" href="#">Купить</a>
+			  <span>290 РУБ.</span> <a class="btn" href="catalog-item.html">Купить</a>
 			</div>
 		  </article>
 		  <article class="content-catalog-item">
@@ -126,7 +137,7 @@
 			  <a href="catalog-item.html">ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС<br>«AMERICAN CREW»</a>
 			</div>
 			<div class="content-catalog-item-price">
-			  <span>500 РУБ.</span> <a class="btn" href="#">Купить</a>
+			  <span>500 РУБ.</span> <a class="btn" href="catalog-item.html">Купить</a>
 			</div>
 		  </article>
 		  <article class="content-catalog-item">
@@ -137,7 +148,7 @@
 			  <a href="catalog-item.html">ГЕЛЬ ДЛЯ ВОЛОС<br>«AMERICAN CREW»</a>
 			</div>
 			<div class="content-catalog-item-price">
-			  <span>300 РУБ.</span> <a class="btn" href="#">Купить</a>
+			  <span>300 РУБ.</span> <a class="btn" href="catalog-item.html">Купить</a>
 			</div>
 		  </article>
 		  <article class="content-catalog-item">
@@ -148,7 +159,7 @@
 			  <a href="catalog-item.html">НАБОР ДЛЯ БРИТЬЯ<br>«BAXTER OF CALIFORNIA»</a>
 			</div>
 			<div class="content-catalog-item-price">
-			  <span>3900 РУБ.</span> <a class="btn" href="#">Купить</a>
+			  <span>3900 РУБ.</span> <a class="btn" href="catalog-item.html">Купить</a>
 			</div>
 		  </article>
 		</div>
@@ -162,7 +173,7 @@
 	</div>
   </div>
 </main>
-<footer class="main-footer">
+<footer class="main-footer regular-page-footer clearfix">
   <div class="container">
 	<section class="footer-contacts">
 	  <p>
